@@ -8,7 +8,7 @@ body {
     文字排版              
 -----------------------------------------*/
 
-h1,h2,h3,h4,h5,h6 {
+/* h1,h2,h3,h4,h5,h6 {
   font-style: normal;
   font-weight: 300;
   letter-spacing: 0.5px;
@@ -73,12 +73,12 @@ a:hover, a:active, a:focus {
   padding-top: 80px;
   padding-bottom: 120px;
 }
-
+ */
 
 /*---------------------------------------
     Preloader section              
 -----------------------------------------*/
-.preloader {
+/* .preloader {
   position: fixed;
   top: 0;
   left: 0;
@@ -121,13 +121,13 @@ a:hover, a:active, a:focus {
 
   100% {
     -webkit-transform: rotate(360deg);
-            transform: rotate(360deg); } }
+            transform: rotate(360deg); } } */
 
 
 /*---------------------------------------
     导航条             
 -----------------------------------------*/
-.navbar-default {
+/* .navbar-default {
     background: #ffffff;
     padding: 18px 0;
     border: none;
@@ -188,13 +188,13 @@ a:hover, a:active, a:focus {
 }
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
   border-color: transparent;
-}
+} */
 
 
 /*---------------------------------------
     Home section              
 -----------------------------------------*/
-#home {
+/* #home {
     position: relative;
     text-align: center;
     padding-top: 60px;
@@ -204,14 +204,14 @@ a:hover, a:active, a:focus {
 #home hr {
   width: 82px;
   margin-top: 32px;
-}
+} */
 
 
 /*---------------------------------------
    Portfolio section              
 -----------------------------------------*/
 
-#portfolio small {
+/* #portfolio small {
   color: #f0f0f0;
   font-size: 10px;
   letter-spacing: 1px;
@@ -255,12 +255,12 @@ a:hover, a:active, a:focus {
 
 #portfolio .text-center {
   padding-top: 62px;
-}
+}*/
 
-/*---------------------------------------
+/*--------------------------------------- */
    About section              
 -----------------------------------------*/
-#about .text-center {
+/*#about .text-center {
   padding-bottom: 42px;
 }
 
@@ -299,13 +299,13 @@ a:hover, a:active, a:focus {
   color: #555;
   font-weight: 400;
   letter-spacing: 4px;
-}
+}*/
 
 
 /*---------------------------------------
    Blog section              
 -----------------------------------------*/
-.blog-post-thumb {
+/*.blog-post-thumb {
   border-bottom: 1px solid #f0f0f0;
   padding-top: 32px;
   padding-bottom: 62px;
@@ -446,23 +446,23 @@ a:hover, a:active, a:focus {
 .blog-comment-form input[type="submit"]:hover {
   background: #777;
   border-color: transparent;
-}
+}*/
 
 /*---------------------------------------
    Blog Single Post section              
 -----------------------------------------*/
-#blog-single-post .blog-post-des h3 {
+/*#blog-single-post .blog-post-des h3 {
   padding-top: 16px;
 }
 .blog-post-des blockquote {
   margin: 22px;
-}
+}*/
 
 /*---------------------------------------
    Single Project section              
 -----------------------------------------*/
 
-#single-project {
+/*#single-project {
   text-align: center;
 }
 
@@ -487,12 +487,12 @@ a:hover, a:active, a:focus {
   font-weight: bold;
   letter-spacing: 1px;
   padding-left: 14px;
-}
+}*/
 
 /*---------------------------------------
    Contact section              
 -----------------------------------------*/
-#contact .col-md-6,
+/*#contact .col-md-6,
 #contact .col-md-12 {
   padding-left: 0px;
 }
@@ -525,13 +525,13 @@ a:hover, a:active, a:focus {
 
 #contact input[type="submit"]:hover {
   background: #777;
-}
+}*/
 
 
 /*---------------------------------------
    Footer section              
 -----------------------------------------*/
-footer {
+/*footer {
     border-top: 1px solid #f0f0f0;
     padding: 100px 0px;
     position: relative;
@@ -554,7 +554,7 @@ footer .footer-copyright {
   padding-top: 16px;
 }
 /*图标*/
-.social-icon {
+/*.social-icon {
     position: relative;
     padding: 0;
     margin: 0;
@@ -581,13 +581,13 @@ footer .footer-copyright {
 .social-icon li a:hover {
     color: #000;
     transform: scale(1.1);
-}
+}*/
 
 
 /*---------------------------------------
    手机端设置        
 -----------------------------------------*/
-@media (max-width: 767px) {
+/*@media (max-width: 767px) {
 
   h1 {
     font-size: 38px;
@@ -627,4 +627,9 @@ footer .footer-copyright {
   footer .col-md-4 {
     padding-top: 42px;
   }
-}
+}*/
+.impowerBox .qrcode {width: 200px;}
+.impowerBox .title {display: none;}
+.impowerBox .info {width: 200px;}
+.status_icon {display：none}
+.impowerBox .status {text-align: center;} 
